@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Bootstrap: Dropdown on Hover Plugin Demo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <meta name="description" content="A demo for my simple plugin that enables Bootstrap dropdowns to activate on hover and provide a nice user experience.">
+  <meta name="author" content="Cameron Spear">
+
+  <link href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet">
+  <!--<link rel="stylesheet" href="css/bootstrap.min.css">-->
+  <link rel="stylesheet" href="css/style.css">
+  <link href="css/font-awesome.min.css" rel="stylesheet">
+
+  <style type="text/css">
+    body { padding-top: 70px; min-height: 410px }
+    .tab-content p { padding: 10px 0; }
+  </style>
+
+</head>
+<body>
+  <header class="navbar navbar-fixed-top navbar-inverse">
+    <div class="container">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#"><marquee behavior="scroll" direction="up">Menu</marquee></a>
+      <div class="navbar-collapse nav-collapse collapse navbar-header">
+        <ul class="nav navbar-nav">
+
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle js-activated" data-toggle="dropdown">Students <b class="caret"></b></a>
+            <ul class="dropdown-menu">
+              <li><a tabindex="-1" href="#">Students Page</a></li>
+              <li><a tabindex="-1" href="#">Login</a></li>
+              <li class="divider"></li>
+              <li><a tabindex="-1" href="#">Profile</a></li>
+              <li><a tabindex="-1" href="#">Blog</a></li>
+			  <li class="divider"></li>
+              <li><a tabindex="-1" href="#">Notice and Events</a></li>
+              <li><a tabindex="-1" href="#">Download</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Alumni</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Blog</a>
+          </li>
+		  <li class="dropdown">
+            <a href="#" class="dropdown-toggle js-activated" data-toggle="dropdown">Stuff <b class="caret"></b></a>
+            <ul class="dropdown-menu">
+              <li><a tabindex="-1" href="#">Stuff Window</a></li>
+              <li><a tabindex="-1" href="#">Notice Upload</a></li>
+              <li class="divider"></li>
+              <li><a tabindex="-1" href="#">Email Facility</a></li>
+              <li><a tabindex="-1" href="#">Profile</a></li>
+            </ul>
+          </li>
+          <li class="dropdown">
+                <a href="#" class="dropdown-toggle js-activated" data-toggle="dropdown">Seminar <b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                  <li><a tabindex="-1" href="#">Seminar Library</a></li>
+                  <li><a tabindex="-1" href="#">Seminar</a></li>
+                </ul>
+              </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Scholarship</a>
+          </li>
+
+		  <li class="dropdown">
+            <a href="#" class="dropdown-toggle js-activated" data-toggle="dropdown">Faculty <b class="caret"></b></a>
+            <ul class="dropdown-menu">
+              <li><a tabindex="-1" href="#">Faculty Window</a></li>
+              <li><a tabindex="-1" href="#">Lecture Plan</a></li>
+              <li class="divider"></li>
+              <li><a tabindex="-1" href="#">CT, Quiz Plan</a></li>
+              <li><a tabindex="-1" href="#">Scheduled Calender</a></li>
+			  <li class="divider"></li>
+              <li><a tabindex="-1" href="#">Settings with Check Box</a></li>
+              <li><a tabindex="-1" href="#">Notice</a></li>
+			  <li class="divider"></li>
+              <li><a tabindex="-1" href="#">Research Student Meeting Scheduled</a></li>
+              <li><a tabindex="-1" href="#">Profile</a></li>
+			  <li><a tabindex="-1" href="#">Assignment or Report Submission</a></li>
+            </ul>
+          </li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle js-activated" data-toggle="dropdown">Login <b class="caret"></b></a>
+            <ul class="dropdown-menu">
+              <li><a tabindex="-1" href="#">Admin Login</a></li>
+              <li><a tabindex="-1" href="#">Faculty Login</a></li>
+              <li class="divider"></li>
+              <li><a tabindex="-1" href="#">Students Login</a></li>
+              <li><a tabindex="-1" href="#">Stuff Login</a></li>
+              <li class="divider"></li>
+              <li><a tabindex="-1" href="#">Temp ID</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div> <!-- .nav-collapse -->
+    </div> <!-- .container -->
+  </header> <!-- .navbar -->
+
+
+    <div class="jumbotron text-center" style="background-color: #382E2C;">
+  <h1 style="color: #fff;" >Department of Nutrition and Food Technology</h1>
+  <h3 style="color: #876E57;"><marquee direction="scroll">JESSORE UNIVERSITY OF SCIENCE AND TECHNOLOGY</marquee></h3>
+</div>
+
+
+<div class="container">
+  <div class="row" style="background-color:#395D5F; text-align: justify; color: #FB4;">
+    <div class="col-sm-6">
+      <h3 style="text-align: center; padding-top: 10px;">Message from Chairman</h3>
+      <p style="">It is my great pleasure to invite you to explore the Jessore University of Science and Technology (JUST) online through our website. Contribution of science and technology for developing a nation is well known to all. To meet up the diversified demand of people, information and communication technology and biological sciences are playing the key role. University is the most suitable place for education and research. Universities are playing a vital role in building efficient manpower for the development of the country as well as for the global need. With a view to imparting science and technology oriented education in Bangladesh, the Jessore University of Science & Technology was established in 2007 by the Shadhinota Shorok (Independence Road) in Jessore district.</p>
+    </div>
+    <div class="col-sm-6" style="padding-top: 15px; padding-bottom: 15px;">
+      <img src="picture/chairman.jpg" class="img-thumbnail" alt="Chairman picture">
+    </div>
+  </div>
+</div>
+
+<div class="container" style="margin-top: 15px; margin-bottom: 15px;">
+  <div class="row" style="background-color:#644; color: #000; text-align: justify;">
+    <div class="col-sm-6">
+      <h3 style="text-align: center; padding-top: 10px;">Department's View</h3>
+      <p>Nutrition and Food Technology was established in 2009. Degree Offered:B. Sc. (Hons.); M. Sc;. In the department of NFT, Students can become well-versed in clinical and community nutrition as well as food service management. At the same time the students get a broad background of basic food science. By exploring the molecular and cellular levels of food, allowing students to truly appreciate the building blocks of food. </p>
+    </div>
+    <div class="col-sm-6">
+      <h3 style="text-align: center; padding-top: 10px;">Contact Info</h3>
+      <p>Chairman</br>Department of Nutrition and Food Technology</br>Jessore University of Science and Technology</br>Jessore-7408, Bangladesh</br>Phone (office): +88 0421 62020 Ext. 210</br>E-mail: chairman.nft@just.edu.bd</p>
+    </div>
+  </div>
+</div>
+
+<!-----------------------Lab-------------------------------->
+
+<div class="container">
+    <h1 style="text-align: center; font-weight: bold;">Laboratory Facilities</h1>
+    <p>Dept. of NFT has its own laboratory to conduct different subject oriented experiments & research. Food Processing Lab, Food Analysis Lab, Food Testing Lab, Food Preservation Lab, Food Microbiology Lab and Food Biotechnology Lab (on-going). </p>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-6" style="padding-top: 15px;">
+        <h3 style="text-align: center; font-weight: bold;">Computer Lab</h3>
+        <img src="picture/chairman.jpg" class="img-thumbnail" alt="Chairman picture">
+      </div>
+      <div class="col-sm-6" style="padding-top: 15px;">
+        <h3 style="text-align: center; font-weight: bold;">Electronics Lab</h3>
+        <img src="picture/chairman.jpg" class="img-thumbnail" alt="Chairman picture">
+      </div>
+    </div>
+  </div>
+
+
+
+<!--==========================
+  Footer
+============================-->
+<footer id="footer">
+  <div class="footer-top">
+    <div class="container">
+      <div class="row">
+
+        <div class="col-lg-3 col-md-6 footer-info">
+          <h3>About JUST</h3>
+          <p>Jessore University of Science and Technology (JUST) is a newly established renowned public university of Bangladesh. It was established in 2007. In 2010, Hon’ble Prime Minister Sheikh Hasina formally inaugurated the new campus of JUST.</p>
+        </div>
+
+        <div class="col-lg-3 col-md-6 footer-links">
+          <h4>Useful Links</h4>
+          <ul>
+            <li><i class="ion-ios-arrow-right"></i> <a href="#">HEQEP</a></li>
+            <li><i class="ion-ios-arrow-right"></i> <a href="#">Phonebook</a></li>
+            <li><i class="ion-ios-arrow-right"></i> <a href="#">Bus Schedule</a></li>
+            <li><i class="ion-ios-arrow-right"></i> <a href="#">Degree Verification</a></li>
+            <li><i class="ion-ios-arrow-right"></i> <a href="#">Web Team</a></li>
+            <li><i class="ion-ios-arrow-right"></i> <a href="#">Facebook</a></li>
+            <li><i class="ion-ios-arrow-right"></i> <a href="#">YouTube</a></li>
+            <li><i class="ion-ios-arrow-right"></i> <a href="#">Terms of service</a></li>
+            <li><i class="ion-ios-arrow-right"></i> <a href="#">Privacy policy</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-3 col-md-6 footer-contact">
+          <h4>Contact Us</h4>
+          <p>
+            Chairman</br>Department of Nutrition and Food Technology</br>
+            Jessore University of Science and Technology</br>Jessore-7408, Bangladesh</br>
+            Phone (office): +88 0421 62020 Ext. 210</br>E-mail: chairman.nft@just.edu.bd
+          </p>
+
+
+<!---------
+          <div class="social-links">
+            <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+            <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+            <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
+            <a href="#" class="google-plus"><i class="fa fa-google-plus"></i></a>
+            <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+          </div>
+----------->
+
+        </div>
+
+        <div class="col-lg-3 col-md-6 footer-newsletter">
+          <h4>Building Website</h4>
+          <p>My Name is ::</br><b> * *   Partha Proteem Ghose   * *</b></br></br>
+		  <img src="picture/partha.JPG" class="img-thumbnail" alt="Cinque Terre" width="210" height="220"> 
+          <form action="" method="post">
+		  </p>
+            <input type="email" name="email"><input type="submit"  value="Subscribe">
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="copyright">
+      &copy; Copyright <strong>JUST</strong>. All Rights Reserved
+    </div>
+    <div class="credits">
+      Designed by <a href="#">Our Team</a>
+    </div>
+  </div>
+</footer><!-- #footer -->
+
+
+  <!-- latest jQuery, Boostrap JS and hover dropdown plugin -->
+  <!---<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+  <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>--->
+  <script src="js/jquery-latest.min.js"></script>
+  <script src="bootstrap-hover-dropdown.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery-slim.min.js"></script>
+  <script src="js/popper.min.js"></script>
+
+  <script>
+    // very simple to use!
+    $(document).ready(function() {
+      $('.js-activated').dropdownHover().dropdown();
+    });
+  </script>
+
+</body>
+</html>
